@@ -13,4 +13,4 @@ services:
     environment:
       - NEXUS_CONTEXT_PATH=/
       # Temporary reset
-      - INSTALL4J_ADD_VM_PARAMS=-Dcom.sonatype.nexus.bootstrap.password=admin123
+      #- INSTALL4J_ADD_VM_PARAMS=-Dcom.sonatype.nexus.bootstrap.password=admin123
